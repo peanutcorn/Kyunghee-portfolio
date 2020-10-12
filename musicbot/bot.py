@@ -1066,8 +1066,8 @@ class MusicBot(discord.Client):
     def _gen_embed(self):
         e = discord.Embed()
         e.colour = 7506394
-        e.set_footer(text='Just-Some-Bots/MusicBot ({})'.format(BOTVERSION), icon_url='https://i.imgur.com/gFHBoZA.png')
-        e.set_author(name=self.user.name, url='https://github.com/Just-Some-Bots/MusicBot',
+        e.set_footer(text='peanutcorn/Kyunghee-portfolio ({})'.format(BOTVERSION), icon_url='https://i.imgur.com/gFHBoZA.png')
+        e.set_author(name=self.user.name, url='https://github.com/peanutcorn/Kyunghee-portfolio',
                      icon_url=self.user.avatar_url)
         return e
 
